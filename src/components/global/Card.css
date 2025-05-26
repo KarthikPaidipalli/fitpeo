@@ -1,0 +1,42 @@
+.card {
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-full {
+  width: 90%;
+  background-color: #4f46e5; 
+  color: white;
+}
+
+.card-default {
+  background-color: #f4f6fc;
+  color: black;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-icon {
+  font-size: 1.25rem;
+}
+
+.card-time {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.card-doctor {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  opacity: 0.8;
+}

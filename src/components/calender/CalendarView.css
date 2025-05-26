@@ -1,0 +1,77 @@
+.calendar-container {
+  padding: 1.5rem;
+}
+
+.calendar-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.calendar-day {
+  background-color: #f4f6fc;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.day-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.date-label {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.time-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.time-slot {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+}
+
+.time-slot.active {
+  background-color: #4f46e5;
+  color: white;
+}
+
+
+.grid-two {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid-two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.schedule-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.schedule-subtitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
