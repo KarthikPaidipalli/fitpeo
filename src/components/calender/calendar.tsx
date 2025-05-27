@@ -12,7 +12,7 @@ export default function CalendarView (){
 
       <div className="calendar-grid">
         {dates.map((day) => (
-          <div key={day.id} className={`calendar-day ${day.disabled ? "disabled" : ""}`}>
+          <div key={day.id} className={`calendar-day`}>
             <div className="day-label">{day.day}</div>
             <div className="date-label">{day.date}</div>
             <div className="time-slots">

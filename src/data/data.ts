@@ -47,25 +47,6 @@ export const dates = [
       { id: "t2", time: "16:00" },
     ],
   },
-  {
-    id: 6,
-    day: "Sat",
-    date: 30,
-    time: [
-      { id: "t1", time: "12:00", active: true },
-      { id: "t2", time: "15:00" },
-    ],
-  },
-  {
-    id: 7,
-    day: "Sun",
-    date: 31,
-    time: [
-      { id: "t1", time: "09:00", active: true },
-      { id: "t2", time: "11:00" },
-    ],
-    disabled: true,
-  },
 ];
 
 
