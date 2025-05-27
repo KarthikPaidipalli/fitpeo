@@ -27,6 +27,7 @@ export const dates = [
     time: [
       { id: "t1", time: "12:00" },
       { id: "t2", time: "13:00" },
+      { id: "t2", time: "-" },
     ],
   },
   {
@@ -36,6 +37,7 @@ export const dates = [
     time: [
       { id: "t1", time: "10:00" },
       { id: "t2", time: "11:00", active: true },
+      { id: "t2", time: "-" },
     ],
   },
   {

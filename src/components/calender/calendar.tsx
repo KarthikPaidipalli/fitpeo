@@ -8,7 +8,7 @@ export default function CalendarView (){
   }
   return (
     <div className="calendar-container">
-      <h3 className="calendar-title">October 2021</h3>
+      <h3 className="calendar-title">May 2025</h3>
 
       <div className="calendar-grid">
         {dates.map((day) => (

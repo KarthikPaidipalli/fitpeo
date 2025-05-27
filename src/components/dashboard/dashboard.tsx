@@ -60,7 +60,7 @@ export default function Dashboard() {
             </div>
 
             <a href="#" className="details-link">Details →</a>
-            <img src="https://www.firstbeat.com/wp-content/uploads/2019/09/stress-recovery-balance-versus-physical-activity.png" alt="" height={230} width={700} />
+            <img src="https://www.firstbeat.com/wp-content/uploads/2019/09/stress-recovery-balance-versus-physical-activity.png" alt="" height={230} width={500} />
         </div>
     );
 }
