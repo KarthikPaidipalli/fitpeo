@@ -1,0 +1,136 @@
+.dashboard-container {
+    padding: 20px;
+    color: #1f2937;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.dashboard-period {
+    color: #6366f1;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.dashboard-content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.dashboard-body {
+    position: relative;
+    flex: 1;
+    min-width: 280px;
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.body-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.label {
+    position: absolute;
+    background: #3b82f6;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.label.heart {
+    top: 110px;
+    right: 40px;
+    background-color: #4338ca;
+}
+
+.label.leg {
+    bottom: 80px;
+    left: 10px;
+    background-color: #06b6d4;
+}
+
+.dashboard-stats {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 180px;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 16px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    gap: 15px;
+}
+
+.stat-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.stat-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.stat-info p {
+    margin: 4px 0;
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.bar {
+    height: 6px;
+    border-radius: 6px;
+    margin-top: 5px;
+    width: 120px;
+}
+
+.bar.red {
+    background-color: #ef4444;
+    width: 70%;
+}
+
+.bar.blue {
+    background-color: #3b82f6;
+    width: 90%;
+}
+
+.bar.orange {
+    background-color: #f97316;
+    width: 60%;
+}
+
+.details-link {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    color: #6366f1;
+    font-weight: 500;
+    text-decoration: none;
+}

@@ -1,38 +1,30 @@
-// components/sidebar/sidebar.jsx
+import "./sidebar.css";
+import { FaTachometerAlt, FaHistory, FaCalendarAlt, FaClipboardList, FaChartPie, FaComments, FaPhone, FaCog } from "react-icons/fa";
+
 export default function Sidebar() {
     return (
         <div className="sidebar">
-            <h1>Healthcare.</h1>
-            
             <div className="sidebar-section">
-                <h2>General</h2>
+                <h2 className="section-title">General</h2>
                 <ul>
-                    <li className="active">Dashboard</li>
-                    <li>History</li>
-                    <li>Calendar</li>
-                    <li>Appointments</li>
-                    <li>Statistics</li>
+                    <li className="active"><FaTachometerAlt /> <span>Dashboard</span></li>
+                    <li><FaHistory /> <span>History</span></li>
+                    <li><FaCalendarAlt /> <span>Calendar</span></li>
+                    <li><FaClipboardList /> <span>Appointments</span></li>
+                    <li><FaChartPie /> <span>Statistics</span></li>
                 </ul>
             </div>
-            
+
             <div className="sidebar-section">
-                <h2>Tools</h2>
+                <h2 className="section-title">Tools</h2>
                 <ul>
-                    <li>Chat</li>
-                    <li>Support</li>
+                    <li><FaComments /> <span>Chat</span></li>
+                    <li><FaPhone /> <span>Support</span></li>
                 </ul>
             </div>
-            
-            <div className="sidebar-section">
-                <h2>Healthcard</h2>
-                <h3>Healthy Heart</h3>
-                <ul>
-                    <li>Healthy Log</li>
-                    <li>Bone</li>
-                    <li>Birth: 26 Oct. 2021</li>
-                    <li>Death: +</li>
-                </ul>
-                <p>3 appointment on this week</p>
+
+            <div className="sidebar-setting">
+                <FaCog /> <span>Setting</span>
             </div>
         </div>
     );

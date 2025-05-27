@@ -1,0 +1,90 @@
+/* Header.css */
+.header-container {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-title {
+  color: #2d3748;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  border: none;
+  width: 200px;
+}
+
+.search-input:focus {
+  border-color: #4299e1;
+}
+
+
+.search-button:hover {
+  background-color: #3182ce;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #2d3748;
+}
+
+.icon-button:hover {
+  color: #4299e1;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.add-button {
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #3182ce;
+}
+
+/* Adjust icon size if needed */
+.search-button svg,
+.icon-button svg,
+.add-button svg {
+  width: 16px;
+  height: 16px;
+}

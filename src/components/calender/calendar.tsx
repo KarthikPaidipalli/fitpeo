@@ -1,18 +1,18 @@
 import { dates, appointments } from "../../data/data";
 import { Card } from "../global/card";
-import "./CalendarView.css";
+import "./calendar.css";
 
-const CalendarView = () => {
-  const scheduleByDay = (day: string) =>
-    appointments.filter((a) => a.day === day && !a.full);
-
+export default function CalendarView (){
+  const scheduleByDay = (day: string) =>{
+    return appointments.filter((a) => a.day === day && !a.full);
+  }
   return (
     <div className="calendar-container">
       <h3 className="calendar-title">October 2021</h3>
 
       <div className="calendar-grid">
         {dates.map((day) => (
-          <div key={day.id} className={`calendar-day`}>
+          <div key={day.id} className={`calendar-day ${day.disabled ? "disabled" : ""}`}>
             <div className="day-label">{day.day}</div>
             <div className="date-label">{day.date}</div>
             <div className="time-slots">
@@ -54,5 +54,3 @@ const CalendarView = () => {
     </div>
   );
 };
-
-export default CalendarView;

@@ -82,7 +82,6 @@ export const appointments = [
     time: '11:00–12:00',
     doctor: 'Dr. Kevin Djones',
     icon: '🦾',
-    full: true,
   },
   {
     title: 'Health checkup complete',
