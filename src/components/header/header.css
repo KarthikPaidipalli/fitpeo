@@ -1,4 +1,3 @@
-/* Header.css */
 .header-container {
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -81,7 +80,6 @@
   background-color: #3182ce;
 }
 
-/* Adjust icon size if needed */
 .search-button svg,
 .icon-button svg,
 .add-button svg {

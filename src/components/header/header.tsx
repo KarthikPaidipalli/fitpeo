@@ -1,4 +1,3 @@
-// Header.jsx
 import { FaSearch, FaBell, FaPlus } from 'react-icons/fa';
 import './header.css';
 
